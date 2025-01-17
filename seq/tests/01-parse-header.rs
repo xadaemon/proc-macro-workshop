@@ -20,9 +20,9 @@
 //   - An example of a function-like procedural macro implemented using Syn:
 //     https://github.com/dtolnay/syn/tree/master/examples/lazy-static
 
-use seq::seq;
+use seq::seq_macro;
 
-seq!(N in 0..8 {
+seq_macro!(N in 0..8 {
     // nothing
 });
 
